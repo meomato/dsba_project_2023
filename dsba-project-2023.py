@@ -85,8 +85,8 @@ st.markdown("Let's check the data for empty rows. To do this, let's display info
 
 # In[7]:
 
-
-st.data.info() # Display information about the dataset
+display = data.info()
+st.display # Display information about the dataset
 
 
 # #### <font color='#3f6569'>As we can see, the data is clean and with the correct type!</font>
