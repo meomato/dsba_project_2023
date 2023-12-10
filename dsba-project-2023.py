@@ -14,7 +14,7 @@ import numpy as np
 import streamlit as st
 
 st.header("Valorant Weapon Stats - IT Project")
-st.markdown("Lets open the file")
+st.markdown("Lets open the file:")
 
 # ## <font color='#3f6569'><u>Lets open the file:</u></font>
 
@@ -27,6 +27,12 @@ data
 st.subheader("Data cleanup:")
 # ## <font color='#3f6569'><u>Data cleanup:</u></font>
 
+st.code("columns = list(data.columns)
+columns = [column.lower() for column in columns]
+columns = [column.replace(' ', '_') for column in columns]
+data.columns = columns
+# bring the column names to snake_case
+data[:0]")
 # In[3]:
 
 
