@@ -7,6 +7,7 @@
 
 
 # Import the necessary libraries
+import plotly
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
