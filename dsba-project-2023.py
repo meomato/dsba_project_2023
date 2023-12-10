@@ -21,7 +21,7 @@ st.markdown("Lets open the file:")
 # In[2]:
 
 
-data = pd.read_csv(r'D:\valorant-stats.csv')  # upload a file
+data = pd.read_csv(r'valorant-stats.csv')  # upload a file
 data
 
 st.subheader("Name change:")
