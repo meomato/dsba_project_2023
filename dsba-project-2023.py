@@ -18,7 +18,7 @@ import numpy as np
 # In[2]:
 
 
-data = pd.read_csv(r'D:\valorant-stats.csv') # upload a file
+data = pd.read_csv(r'valorant-stats.csv') # upload a file
 data
 
 
