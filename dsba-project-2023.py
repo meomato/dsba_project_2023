@@ -91,6 +91,7 @@ st.markdown("Let's check the data for empty rows. To do this, let's display info
 st.subheader("Light and complex plots")
 st.markdown("1. Let's take a look at the prices of each weapon:")
 st.markdown("We can construct a scatter plot for accurate analysis")
+
 # ## <font color='#3f6569'><u>Light and complex plots</u></font>
 
 # ### <font color='#3f6569'>1. Let's take a look at the prices of each weapon:
@@ -108,7 +109,7 @@ plt.xticks(x, rotation='vertical')
 plt.xlabel('Names of weapons')
 plt.ylabel('The price of each weapon')
  
-st.plt_chart(first)
+first.show()
 
 
 
