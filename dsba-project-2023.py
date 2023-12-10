@@ -44,6 +44,7 @@ data.columns = columns
 # bring the column names to snake_case
 data[:0]
 
+st.markdown("As we can see, 1 line of our table was printed, in which all names were changed according to snake_case, i.e. capital letters were replaced by small letters, and spaces - by underscores")
 # ## <font color='#3f6569'><u>Descriptive statistics:</u></font>
 
 # #### <font color='#3f6569'>Let's find the arithmetic mean, median and standard deviation of some values</font>
