@@ -24,7 +24,7 @@ st.markdown("Lets open the file:")
 data = pd.read_csv(r'valorant-stats.csv') # upload a file
 data
 
-st.subheader("Data cleanup:")
+st.subheader("Name change:")
 # ## <font color='#3f6569'><u>Data cleanup:</u></font>
 
 st.code('''columns = list(data.columns)
@@ -78,9 +78,9 @@ print('\tArithmetic mean:', data.magazine_capacity.mean())
 print('\tMedian:', data.magazine_capacity.median())
 print('\tStandard deviation:', data.magazine_capacity.std())
 
-
+st.subheader('Data Cleanup:')
 # ## <font color='#3f6569'><u>Data Cleanup:</u></font>
-
+st.markdown('Let's check the data for empty rows. To do this, let's display information about the entire data type of all rows and columns:')
 # #### <font color='#3f6569'>Let's check the data for empty rows. To do this, let's display information about the entire data type of all rows and columns:</font>
 
 # In[7]:
