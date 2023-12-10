@@ -80,7 +80,7 @@ print('\tStandard deviation:', data.magazine_capacity.std())
 
 st.subheader('Data Cleanup:')
 # ## <font color='#3f6569'><u>Data Cleanup:</u></font>
-st.markdown('Let's check the data for empty rows. To do this, let's display information about the entire data type of all rows and columns:')
+st.markdown("Let's check the data for empty rows. To do this, let's display information about the entire data type of all rows and columns:")
 # #### <font color='#3f6569'>Let's check the data for empty rows. To do this, let's display information about the entire data type of all rows and columns:</font>
 
 # In[7]:
