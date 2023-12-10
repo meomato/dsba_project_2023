@@ -108,7 +108,7 @@ plt.xticks(x, rotation='vertical')
 plt.xlabel('Names of weapons')
 plt.ylabel('The price of each weapon')
  
-st.plotly_chart(first)
+st.plt_chart(first)
 
 
 
