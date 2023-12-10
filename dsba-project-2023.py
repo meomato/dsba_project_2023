@@ -54,7 +54,7 @@ st.markdown("As we can see, 1 line of our table was printed, in which all names 
 # In[4]:
 st.subheader("Descriptive statistics:")
 
-st.markdown("For the price column:")
+st.markdown("##### For the price column:")
 
 st.write("\tArithmetic mean:", data.price.mean())
 st.write("\tMedian:", data.price.median())
@@ -64,7 +64,7 @@ st.write("\tStandard deviation:", data.price.std())
 
 # In[5]:
 
-st.markdown("For column hdmg_0 (Head Damage from close range):")
+st.markdown("##### For column hdmg_0 (Head Damage from close range):")
 
 st.write("\tArithmetic mean:", data.hdmg_0.mean())
 st.write("\tMedian:", data.hdmg_0.median())
@@ -74,7 +74,7 @@ st.write("\tStandard deviation:", data.hdmg_0.std())
 
 # In[6]:
 
-st.markdown("For column magazine_capacity:")
+st.markdown("##### For column magazine_capacity:")
 
 st.write("\tArithmetic mean:", data.magazine_capacity.mean())
 st.write("\tMedian:", data.magazine_capacity.median())
