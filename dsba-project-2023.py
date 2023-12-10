@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # <font color='#3f6569'><u>Valorant Weapon Stats - IT Project</u></font>
-
+st.header("Valorant Weapon Stats - IT Project")
 # In[1]:
 
 
@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+st.markdown("Lets open the file")
 
 # ## <font color='#3f6569'><u>Lets open the file:</u></font>
 
@@ -21,7 +22,7 @@ import numpy as np
 data = pd.read_csv(r'valorant-stats.csv') # upload a file
 data
 
-
+st.subheader("Data cleanup:")
 # ## <font color='#3f6569'><u>Data cleanup:</u></font>
 
 # In[3]:
