@@ -27,12 +27,13 @@ data
 st.subheader("Data cleanup:")
 # ## <font color='#3f6569'><u>Data cleanup:</u></font>
 
-st.code("columns = list(data.columns)
+st.code('''columns = list(data.columns)
 columns = [column.lower() for column in columns]
 columns = [column.replace(' ', '_') for column in columns]
 data.columns = columns
 # bring the column names to snake_case
-data[:0]")
+data[:0]
+''')
 # In[3]:
 
 
