@@ -85,12 +85,12 @@ st.markdown("Let's check the data for empty rows. To do this, let's display info
 
 # In[7]:
 
-display = data.info()
-st.table(display) # Display information about the dataset
-
 
 # #### <font color='#3f6569'>As we can see, the data is clean and with the correct type!</font>
 
+st.subheader("Light and complex plots")
+st.markdown("1. Let's take a look at the prices of each weapon:")
+st.markdown("We can construct a scatter plot for accurate analysis")
 # ## <font color='#3f6569'><u>Light and complex plots</u></font>
 
 # ### <font color='#3f6569'>1. Let's take a look at the prices of each weapon:
@@ -102,13 +102,14 @@ st.table(display) # Display information about the dataset
 x = data.name # x denotes the name of each weapon
 y = data.price # y shows the price of each weapon
  
-plt.scatter(x, y, color = '#3c8c99')
+first = plt.scatter(x, y, color = '#3c8c99')
 plt.xticks(x, rotation='vertical')
 
 plt.xlabel('Names of weapons')
 plt.ylabel('The price of each weapon')
  
-plt.show()
+st.plotly_chart(first)
+
 
 
 # #### <font color='#3f6569'>The graph clearly shows that the most expensive weapon is the "operator" which costs almost 5000, and the cheapest is the "classic" which costs 0 (since the "classic" is given to each person for free each round)</font>
