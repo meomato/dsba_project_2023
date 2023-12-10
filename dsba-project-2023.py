@@ -56,27 +56,28 @@ st.subheader("Descriptive statistics:")
 
 st.markdown("For the price column:")
 
-st.code('''print('\tArithmetic mean:', data.price.mean())
-print('\tMedian:', data.price.median())
-print('\tStandard deviation:', data.price.std())''')
+st.write("\tArithmetic mean:", data.price.mean())
+st.write("\tMedian:", data.price.median())
+st.write("\tStandard deviation:", data.price.std())
 
 # ### <font color='#3f6569'>For column hdmg_0 (Head Damage from close range):</font>
 
 # In[5]:
 
 st.markdown("For column hdmg_0 (Head Damage from close range):")
-st.code('''print('\tArithmetic mean:', data.hdmg_0.mean())
-print('\tMedian:', data.hdmg_0.median())
-print('\tStandard deviation:', data.hdmg_0.std())''')
+st.write('''\tArithmetic mean:", data.hdmg_0.mean()
+"\tMedian:", data.hdmg_0.median()
+"\tStandard deviation:", data.hdmg_0.std()''')
 
 # ### <font color='#3f6569'>For column magazine_capacity:</font>
 
 # In[6]:
 
 st.markdown("For column magazine_capacity:")
-st.code('''print('\tArithmetic mean:', data.magazine_capacity.mean())
-print('\tMedian:', data.magazine_capacity.median())
-print('\tStandard deviation:', data.magazine_capacity.std())''')
+
+st.write("\tArithmetic mean:", data.magazine_capacity.mean())
+st.write("\tMedian:", data.magazine_capacity.median())
+st.write("\tStandard deviation:", data.magazine_capacity.std())
 
 st.subheader('Data Cleanup:')
 # ## <font color='#3f6569'><u>Data Cleanup:</u></font>
