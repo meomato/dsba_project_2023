@@ -65,9 +65,10 @@ st.write("\tStandard deviation:", data.price.std())
 # In[5]:
 
 st.markdown("For column hdmg_0 (Head Damage from close range):")
-st.write('''\tArithmetic mean:", data.hdmg_0.mean()
-"\tMedian:", data.hdmg_0.median()
-"\tStandard deviation:", data.hdmg_0.std()''')
+
+st.write("\tArithmetic mean:", data.hdmg_0.mean())
+st.write("\tMedian:", data.hdmg_0.median())
+st.write("\tStandard deviation:", data.hdmg_0.std())
 
 # ### <font color='#3f6569'>For column magazine_capacity:</font>
 
