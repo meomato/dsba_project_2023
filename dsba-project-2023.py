@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # <font color='#3f6569'><u>Valorant Weapon Stats - IT Project</u></font>
-st.header("Valorant Weapon Stats - IT Project")
+
 # In[1]:
 
 
@@ -13,6 +13,7 @@ import seaborn as sns
 import numpy as np
 import streamlit as st
 
+st.header("Valorant Weapon Stats - IT Project")
 st.markdown("Lets open the file")
 
 # ## <font color='#3f6569'><u>Lets open the file:</u></font>
